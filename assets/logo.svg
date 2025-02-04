@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Main hexagonal container for the hub design -->
+  <path d="M200 80 L290 135 L290 245 L200 300 L110 245 L110 135 Z" 
+        fill="none" 
+        stroke="#2563eb" 
+        stroke-width="4"/>
+  
+  <!-- Network connection lines forming internal hub structure -->
+  <path d="M200 80 L200 300 M110 135 L290 245 M290 135 L110 245" 
+        stroke="#2563eb" 
+        stroke-width="2" 
+        stroke-opacity="0.5"/>
+  
+  <!-- Core agent representation -->
+  <circle cx="200" cy="190" r="25" fill="#2563eb"/>
+  
+  <!-- Dynamic movement indicator ring -->
+  <ellipse cx="200" cy="190" rx="55" ry="45" 
+           fill="none" 
+           stroke="#2563eb" 
+           stroke-width="3" 
+           stroke-dasharray="6,6"/>
+  
+  <!-- Network connection nodes -->
+  <circle cx="110" cy="135" r="8" fill="#2563eb"/>
+  <circle cx="290" cy="135" r="8" fill="#2563eb"/>
+  <circle cx="290" cy="245" r="8" fill="#2563eb"/>
+  <circle cx="110" cy="245" r="8" fill="#2563eb"/>
+  <circle cx="200" cy="80" r="8" fill="#2563eb"/>
+  <circle cx="200" cy="300" r="8" fill="#2563eb"/>
+  
+  <!-- Brand name text -->
+  <text x="200" y="350" 
+        font-family="Arial, sans-serif" 
+        font-size="32" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="#2563eb">
+    EmbodyHub
+  </text>
+</svg>

@@ -1,0 +1,15 @@
+# Core dependencies
+numpy>=1.21.0
+torch>=1.9.0
+gym>=0.21.0
+
+# Testing and development
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.3.0
+flake8>=4.0.0
+mypy>=0.910
+
+# Documentation
+sphinx>=4.5.0
+sphinx-rtd-theme>=1.0.0
