@@ -1,4 +1,4 @@
-![EmbodyHub Logo](assets/logo.svg)
+<img src="assets/logo.svg" width="200" alt="EmbodyHub Logo">
 
 # EmbodyHub
 
